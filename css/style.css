@@ -1,0 +1,79 @@
+:root {
+    --light-gray: #2b3032a1;
+    --primary-color: #45ccb8;
+    --border: #2b303218;
+    --text-color: #ff686b;
+    --red-color: rgb(204, 61, 61);
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+.bg-primary-color {
+    background-color: var(--primary-color) !important;
+}
+
+.text-color {
+    color: var(--text-color);
+}
+
+.lightblue {
+    color: lightblue;
+}
+
+/* hrader */
+header {
+    background-color: var(--red-color);
+}
+
+
+.container.dropdown-toggle,
+.container .dropdown-item {
+    font-size: 0.7em;
+}
+
+.header-links a {
+    font-size: 0.9em;
+    text-decoration: none;
+    color: white;
+}
+
+.icon-custom{
+    color: white !important;
+}
+
+form {
+    border-radius: 5px;
+    width:100%;
+    overflow: hidden;
+}
+
+.input-group-prepend .input-group-text {
+    border-radius: 50px;
+}
+
+.search-input {
+    min-height: 3rem;
+    width:100%;
+    border-radius: 50px;
+}
+
+
+/* Navbar */
+.navbar-nav {
+    padding: 0.8em 0em;
+}
+
+.navbar-nav .nav-link {
+    font-size: 0.9em;
+    color: var(--light-gray) !important;
+}
+
+.navbar-nav .nav-item .nav-link {
+    padding: 0 1.3em;
+}
+
+.navbar-nav .basket-icon {
+    margin-right: 6.5rem !important;
+}
