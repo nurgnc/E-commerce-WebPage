@@ -22,6 +22,10 @@
     color: lightblue;
 }
 
+a{
+    text-decoration: none !important;
+}
+
 /* Header Section */
 header {
     background-color: var(--red-color);
