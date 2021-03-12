@@ -1,8 +1,8 @@
-$(".slider-two")
+$(".common-slider")
     .not(".slick-intialized")
     .slick({
-        prevArrow: ".site-slider-two .prev",
-        nextArrow: ".site-slider-two .next",
+        prevArrow: ".slick-slider .prev",
+        nextArrow: ".slick-slider .next",
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
