@@ -73,13 +73,38 @@ form {
     padding: 0 1.3em;
 }
 
+.header-button-signup {
+    margin: 0 10px;
+    width: 20rem;
+    height: 3rem;
+    border-radius: 50px;
+}
+
+
+.header-button {
+    margin: 0 10px 0 0;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 50px;
+}
+
+.number-class {
+    border-radius: 50px;
+    border: none;
+}
+
 
 /* Discount Section */
 
-.discount-section, .new-section {
+.discount-section, .new-section, .item {
     border: none;
     border-radius: 5px;
     background-color: rgb(238, 238, 238);
+}
+
+.item {
+    width: 20rem;
+    height: 8rem;
 }
 
 .slick-slider {
