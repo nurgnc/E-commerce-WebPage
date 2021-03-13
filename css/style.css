@@ -72,24 +72,23 @@ form {
 
 /* Discount Section */
 
-.discount-section, .new-section, .item, .brand-section {
+.discount-section, .new-section, .item, .brand-section, .opportunity-slider {
     border: none;
     border-radius: 5px;
-    background-color: rgb(238, 238, 238);
+    background-color: rgba(192, 188, 188, 0.644);
 }
 
 .item {
-    width: 20rem;
+    width: 30rem;
     height: 8rem;
 }
 
 .slick-slider {
     position: relative;
-    height: 30%;
+    height: 100%;
 }
 
 .slick-slider .product {
-    height: 24rem;
     position: relative;
     overflow: hidden;
 }
@@ -108,6 +107,16 @@ form {
 }
 
 
+.position-top-prev {
+    position: absolute;
+    top: 45%;
+    left: 0%;
+    right: auto;
+}
+.position-top-next {
+    position: absolute;
+    top: 45%;
+}
 .position-top {
     position: absolute;
     top: 45%;
@@ -154,7 +163,6 @@ form {
 }
 
 /* Brand Slider */
-
 
 .slick-dots {
     display: flex;

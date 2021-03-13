@@ -14,7 +14,7 @@ $(".daily-slider")
     .slick({
         prevArrow: $('.prev-daily'),
         nextArrow: $('.next-daily'),
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 3000
     });
 // Discount Slider
@@ -26,7 +26,44 @@ $(".discount-slider")
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 3000
+        autoplaySpeed: 3000,
+        responsive: [{
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                centerMode: true,
+
+            }
+
+        }, {
+            breakpoint: 800,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                infinite: true,
+
+            }
+        }, {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                autoplay: true,
+                autoplaySpeed: 2000,
+            }
+        }]
+    });
+
+// Opportunity Product Slider
+$(".opportunity-slider")
+    .not(".slick-intialized")
+    .slick({
+        prevArrow: $('.prev-opportunity'),
+        nextArrow: $('.next-opportunity'),
+        autoplay: true,
+        autoplaySpeed: 4000
     });
 
 // New Product Slider
@@ -38,7 +75,33 @@ $(".new-slider")
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 3000
+        autoplaySpeed: 3000,
+        responsive: [{
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1
+
+            }
+
+        }, {
+            breakpoint: 800,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                infinite: true,
+
+            }
+        }, {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                autoplay: true,
+                autoplaySpeed: 2000,
+            }
+        }]
     });
 
 // Reference Slider
@@ -50,5 +113,30 @@ $(".common-slider-logo")
         slidesToShow: 7,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 3000
+        autoplaySpeed: 3000,
+        responsive: [{
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1
+            }
+
+        }, {
+            breakpoint: 800,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                infinite: true,
+
+            }
+        }, {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                autoplay: true,
+                autoplaySpeed: 2000,
+            }
+        }]
     });
