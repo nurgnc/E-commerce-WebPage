@@ -72,7 +72,7 @@ form {
 
 /* Discount Section */
 
-.discount-section, .new-section, .item {
+.discount-section, .new-section, .item, .brand-section {
     border: none;
     border-radius: 5px;
     background-color: rgb(238, 238, 238);
@@ -137,10 +137,6 @@ form {
     letter-spacing: 1px;
 }
 
-.card div svg {
-    margin: auto;
-}
-
 /* Brand Section */
 
 .brand-list {
@@ -155,4 +151,39 @@ form {
 .brand-bold {
     font-size: 15px;
     font-weight: 600;
+}
+
+/* Brand Slider */
+
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 1rem 0;
+    list-style-type: none;
+    position: absolute;
+    top: 90%;
+    bottom: 0;
+    right: 30%;
+}
+
+.slick-dots li {
+    margin: 0 0.6rem;
+}
+
+.slick-dots button {
+    display: block;
+    width: 0.7rem;
+    height: 0.7rem;
+    padding: 0;
+    border: none;
+    background-color: rgb(148, 142, 142);
+    text-indent: -99999px;
+    border-radius: 100%;
+}
+
+.slick-dots li.slick-active button {
+    transform: scale(1.3);
 }

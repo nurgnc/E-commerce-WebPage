@@ -2,11 +2,21 @@
 $(".brand-slider")
     .not(".slick-intialized")
     .slick({
+        prevArrow: $('.prev-discount'),
+        nextArrow: $('.next-discount'),
         dots: true,
         autoplay: true,
         autoplaySpeed: 3000
     });
-
+//Daily Slider
+$(".daily-slider")
+    .not(".slick-intialized")
+    .slick({
+        prevArrow: $('.prev-daily'),
+        nextArrow: $('.next-daily'),
+        autoplay: true,
+        autoplaySpeed: 3000
+    });
 // Discount Slider
 $(".discount-slider")
     .not(".slick-intialized")
