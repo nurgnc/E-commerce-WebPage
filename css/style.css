@@ -1,36 +1,11 @@
-:root {
-    --light-gray: #2b3032a1;
-    --primary-color: #45ccb8;
-    --border: #2b303218;
-    --text-color: #ff686b;
-    --red-color: rgb(204, 61, 61);
-}
-
-.primary-color {
-    color: var(--primary-color);
-}
-
-.bg-primary-color {
-    background-color: var(--primary-color) !important;
-}
-
-.text-color {
-    color: var(--text-color);
-}
-
-.lightblue {
-    color: lightblue;
-}
-
 a{
     text-decoration: none !important;
 }
 
 /* Header Section */
 header {
-    background-color: var(--red-color);
+    background-color: rgb(185, 62, 62);
 }
-
 
 .container.dropdown-toggle,
 .container .dropdown-item {
@@ -78,6 +53,7 @@ form {
     width: 20rem;
     height: 3rem;
     border-radius: 50px;
+    line-height: 18px;
 }
 
 
@@ -131,9 +107,6 @@ form {
     color: var(--light-gray);
 }
 
-.common-slider .slicks-track .product:hover span {
-    background-color: var(--primary-color);
-}
 
 .position-top {
     position: absolute;
@@ -147,4 +120,39 @@ form {
 /* Reference Slider */
 .reference-text {
     font-size: 1.2rem;
+}
+
+/*  */
+
+
+.text-font, .text-font-bold {
+    font-size: 11px;
+    line-height: 1px;
+    text-indent: 15px;
+    font-weight: 600;
+}
+
+.text-font-bold {
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.card div svg {
+    margin: auto;
+}
+
+/* Brand Section */
+
+.brand-list {
+    margin: 0;
+    padding: 0;
+}
+
+.brand-list li {
+    list-style: none;
+}
+
+.brand-bold {
+    font-size: 15px;
+    font-weight: 600;
 }
