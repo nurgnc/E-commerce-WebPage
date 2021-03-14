@@ -32,12 +32,11 @@ $(".discount-slider")
             settings: {
                 slidesToShow: 3,
                 slidesToScroll: 1,
-                centerMode: true,
 
             }
 
         }, {
-            breakpoint: 800,
+            breakpoint: 700,
             settings: {
                 slidesToShow: 2,
                 slidesToScroll: 2,
