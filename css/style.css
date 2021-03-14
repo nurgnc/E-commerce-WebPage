@@ -1,22 +1,46 @@
+/* Color Features */
+
+:root {
+    --light-gray: #F5F5F5;
+    --medium-gray: #EBEBEB;
+    --dark-gray: #D7D7D7;
+    --navbar-red: #E00024;
+    --footer-gray: #959595;
+
+}
+
+.light-gray {
+    background-color: var(--light-gray);
+}
+
+.medium-gray {
+    background-color: var(--medium-gray);
+}
+
+.dark-gray {
+    background-color: var(--dark-gray);
+}
+
+.navbar-red {
+    background-color: var(--navbar-red);
+}
+
+.footer-gray {
+    background-color: var(--footer-gray);
+}
+
+/* Radius Features */
+.section-radius {
+    border-radius: 10px;
+}
+
+
 a{
     text-decoration: none !important;
 }
 
 /* Header Section */
-header {
-    background-color: rgb(185, 62, 62);
-}
 
-.container.dropdown-toggle,
-.container .dropdown-item {
-    font-size: 0.7em;
-}
-
-.header-links a {
-    font-size: 0.9em;
-    text-decoration: none;
-    color: white;
-}
 
 .icon-custom{
     color: white !important;
@@ -72,15 +96,10 @@ form {
 
 /* Discount Section */
 
-.discount-section, .new-section, .item, .brand-section, .opportunity-section {
-    border: none;
-    border-radius: 5px;
-    background-color: #bebbbba4;
-}
-
 .item {
     width: 30rem;
     height: 8rem;
+    border: none;
 }
 
 .slick-slider {
@@ -163,6 +182,9 @@ form {
 }
 
 /* Brand Slider */
+.brand-slider div img{
+    margin: auto;
+}
 
 .slick-dots {
     display: flex;
