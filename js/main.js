@@ -14,8 +14,19 @@ $(".daily-slider")
     .slick({
         prevArrow: $('.prev-daily'),
         nextArrow: $('.next-daily'),
+        slidesToShow: 1,
+        slidesToScroll: 1,
         autoplay: false,
-        autoplaySpeed: 3000
+        autoplaySpeed: 3000,
+        responsive: [{
+            breakpoint: 968,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+
+            }
+
+        }]
     });
 // Discount Slider
 $(".discount-slider")
@@ -62,7 +73,8 @@ $(".opportunity-slider")
         prevArrow: $('.prev-opportunity'),
         nextArrow: $('.next-opportunity'),
         autoplay: true,
-        autoplaySpeed: 4000
+        autoplaySpeed: 4000,
+        
     });
 
 // New Product Slider
@@ -80,7 +92,6 @@ $(".new-slider")
             settings: {
                 slidesToShow: 3,
                 slidesToScroll: 1
-
             }
 
         }, {
