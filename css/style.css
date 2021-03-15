@@ -71,11 +71,10 @@ form {
 
 .navbar-menu {
   text-align: center;
-  width: 100%;
 }
 
 .nav-toggle {
-  position: absolute !important;
+  position: relative !important;
   top: -9999px !important;
   left: -9999px !important;
 }
@@ -96,8 +95,8 @@ form {
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
   display: block;
-  background: white;
-  height: 2px;
+  background: rgb(97, 95, 95);
+  height: 1px;
   width: 2em;
   border-radius: 2px;
   position: relative;
@@ -106,7 +105,7 @@ form {
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
   content: '';
-  position: absolute;
+  position: relative;
 }
 
 .nav-toggle-label span::before {
@@ -118,11 +117,11 @@ form {
 }
 
 nav {
-  position: absolute;
+  position: relative;
   text-align: left;
-  top: 100%;
+  top: 80%;
   left: 0;
-  background: var(--medium-gray);
+  background: var(--light-gray);
   width: 100%;
   transform: scale(1, 0);
   transform-origin: top;
@@ -166,10 +165,6 @@ nav a:hover {
     grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
   }
   
-  .logo {
-    grid-column: 2 / 3;
-  }
-  
   nav {
     position: relative;
     text-align: left;
@@ -199,7 +194,7 @@ nav a:hover {
     height: 5px;
     background: black;
     position: absolute;
-    top: -.75em;
+    top: .75em;
     left: 0;
     right: 0;
     transform: scale(0, 1);
@@ -374,7 +369,8 @@ nav a:hover {
     background-color: var(--dark-gray);
 }
 
-/* Opportunity Slider */
+/* Opportunity Slider Grid Structure */
+
 .grid-structure {
     display: grid;
     grid-template-rows: 50% 50%;
